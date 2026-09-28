@@ -1,0 +1,1 @@
+{"profile":{"retryable_every":2,"truncate_every":3},"requests":[{"jsonrpc":"2.0","id":1,"params":{"name":"search"}},{"jsonrpc":"2.0","id":2,"params":{"name":"search"}},{"jsonrpc":"2.0","id":3,"params":{"name":"search"}}]}
