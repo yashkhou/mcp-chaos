@@ -1,10 +1,7 @@
-# Contributing to MCP Chaos
+# Contributing
 
-Prefer small, evidence-backed changes tied to a concrete failure mode or developer workflow. Behavioral changes need regression tests.
+Chaos behavior must remain deterministic under a fixed request sequence. Add regression tests for new fault modes or scheduling semantics.
 
 ```bash
 PYTHONPATH=src python -m unittest discover -s tests -v
-python -m compileall -q src tests
 ```
-
-Prefer inspectable core logic over unnecessary dependencies.

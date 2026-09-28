@@ -1,11 +1,9 @@
 # Changelog
 
 ## 0.1.1 — 2026-09-28
-
-- Method-scoped deterministic fault plans.
-- Added regression coverage for the new behavior.
-- Added contributor and security guidance.
+- Added method-scoped deterministic fault rules.
+- Added per-method counters, delayed starts, every-N cadence, and fault trace events.
+- Preserved legacy global fault cadence fields.
 
 ## 0.1.0
-
-Initial public V1.
+Initial public release.
