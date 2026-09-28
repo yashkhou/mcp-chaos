@@ -34,3 +34,12 @@ python -m unittest discover -s tests -v
 ```
 
 MIT licensed.
+
+
+## v0.1.1
+
+**Method-scoped deterministic fault plans.** Fault rules can target MCP method globs with independent call counters, delayed starts, deterministic cadence, and a trace of injected faults.
+
+```bash
+PYTHONPATH=src python -m unittest discover -s tests -v
+```

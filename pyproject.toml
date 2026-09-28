@@ -4,7 +4,7 @@ build-backend = "setuptools.build_meta"
 
 [project]
 name = "mcp-chaos"
-version = "0.1.0"
+version = "0.1.1"
 description = "Fault-injection middleware for JSON-RPC/MCP-style tool transports so clients can be tested against ugly network and protocol behavior."
 requires-python = ">=3.11"
 license = {text = "MIT"}
