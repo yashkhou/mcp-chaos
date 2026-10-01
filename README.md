@@ -1,3 +1,9 @@
+> [!IMPORTANT]
+> **This project now lives in [agent-reliability-lab](https://github.com/yashkhou/agent-reliability-lab/tree/main/packages/mcp-chaos).** Its full history was moved there and this repository is archived.
+>
+> `pip install "git+https://github.com/yashkhou/agent-reliability-lab#subdirectory=packages/mcp-chaos"`
+
+
 # mcp-chaos
 
 Fault-injection middleware for JSON-RPC/MCP-style tool transports so clients can be tested against ugly network and protocol behavior.
